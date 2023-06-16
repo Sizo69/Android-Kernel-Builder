@@ -213,6 +213,11 @@ jobs:
         run: |
           echo "PATH Variable: $PATH"
           make ${{ env.args }} ${{ env.DEFCONFIG_NAME }}
+          
+      - name: Remove dirty tag
+        run: |
+          git fetch --tags
+          git reset --hard origin/master
 
       - name: "🎶 Build kernel"
         working-directory: ${{ env.KERNEL_NAME }}
@@ -221,7 +226,7 @@ jobs:
         run: |
           echo "PATH Variable: $PATH"
           make ${{ env.args }}
-
+    
       - name: "💛 Upload Image"
         uses: actions/upload-artifact@v3
         env:
