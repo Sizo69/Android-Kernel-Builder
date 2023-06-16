@@ -214,11 +214,6 @@ jobs:
           echo "PATH Variable: $PATH"
           make ${{ env.args }} ${{ env.DEFCONFIG_NAME }}
           
-      - name: Remove dirty tag
-        run: |
-          git fetch --tags
-          git reset --hard origin/master
-
       - name: "🎶 Build kernel"
         working-directory: ${{ env.KERNEL_NAME }}
         env:
