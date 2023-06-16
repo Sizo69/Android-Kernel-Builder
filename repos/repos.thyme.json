@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "Thyme-KernelSU-Proton",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
+      "name": "Thyme-KernelSU-Proton-SoundBeast",
+      "repo": "https://github.com/donvito007/android_kernel_xiaomi_thyme",
+      "branch": "main",
       "device": "thyme",
       "defconfig": "thyme_defconfig"
     },
@@ -45,13 +45,13 @@
   },
   {
     "kernelSource": {
-      "name": "Thyme-Google",
+      "name": "Thyme-Google-Megatroid",
       "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
       "branch": "lineage-20.0",
       "device": "thyme",
       "defconfig": "thyme_defconfig"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
