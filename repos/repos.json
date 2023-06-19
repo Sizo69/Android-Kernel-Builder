@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Thyme-PE",
-      "repo": "https://github.com/JayanthKandula/kernel_xiaomi_sm8250-immensity",
-      "branch": "thirteen",
-      "device": "Thyme",
-      "defconfig": "vendor/thyme_defconfig"
+      "name": "Alioth-Oxygen",
+      "repo": "https://github.com/Danda420/kernel_xiaomi_sm8250",
+      "branch": "main",
+      "device": "Alioth",
+      "defconfig": "vendor/alioth_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -45,10 +45,10 @@
   },
   {
     "kernelSource": {
-      "name": "Alioth-Lawrun",
+      "name": "Thyme-Lawrun",
       "repo": "https://github.com/negrroo/LawRun_xiaomi_sm8250",
       "branch": "master",
-      "device": "Alioth",
+      "device": "Thyme",
       "defconfig": "LawRun_defconfig"
     },
     "withKernelSU": true,
@@ -89,11 +89,11 @@
   },
   {
     "kernelSource": {
-      "name": "Alioth-Nexus",
-      "repo": "https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250",
-      "branch": "stable",
+      "name": "Alioth-stock",
+      "repo": "https://github.com/Danda420/kernel_xiaomi_sm8250",
+      "branch": "main",
       "device": "Alioth",
-      "defconfig": "alioth_defconfig"
+      "defconfig": "vendor/stock_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
