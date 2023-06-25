@@ -2,9 +2,9 @@
   {
     "kernelSource": {
       "name": "Thyme-KernelSU-Proton-SoundBeast",
-      "repo": "https://github.com/donvito007/android_kernel_xiaomi_thyme",
+      "repo": "https://github.com/donvito007/KernelSU_Thyme_SoundBeast",
       "branch": "main",
-      "device": "thyme",
+      "device": "Thyme",
       "defconfig": "thyme_defconfig"
     },
     "withKernelSU": true,
