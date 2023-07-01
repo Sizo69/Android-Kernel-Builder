@@ -38,7 +38,7 @@
     },
     "AnyKernel3": {
       "use": true,
-      "release": true,
+      "release": false,
       "repo": "https://github.com/easterNday/AnyKernel3/",
       "branch": "thyme"
     }
@@ -46,9 +46,9 @@
   {
     "kernelSource": {
       "name": "Thyme-Kona-perf",
-      "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_sm8250",
-      "branch": "thirteen",
-      "device": "thyme",
+      "repo": "https://github.com/DogDayAndroid/android_kernel_xiaomi_thyme",
+      "branch": "main",
+      "device": "Thyme",
       "defconfig": "vendor/kona-perf_defconfig"
     },
     "withKernelSU": true,
@@ -79,7 +79,7 @@
     },
     "AnyKernel3": {
       "use": true,
-      "release": true,
+      "release": false,
       "repo": "https://github.com/easterNday/AnyKernel3/",
       "branch": "thyme"
     }
