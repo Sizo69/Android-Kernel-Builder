@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Thyme-KernelSU-Proton-SoundBeast",
-      "repo": "https://github.com/donvito007/KernelSU_Thyme_SoundBeast",
-      "branch": "main",
+      "name": "Thyme-KernelSU-PE",
+      "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_sm8250",
+      "branch": "thirteen",
       "device": "Thyme",
-      "defconfig": "thyme_defconfig"
+      "defconfig": "vendor/thyme_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -45,11 +45,11 @@
   },
   {
     "kernelSource": {
-      "name": "Thyme-Google-Megatroid",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
+      "name": "Thyme-Kona-perf",
+      "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_sm8250",
+      "branch": "thirteen",
       "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "defconfig": "vendor/kona-perf_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
