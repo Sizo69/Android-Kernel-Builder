@@ -38,18 +38,18 @@
     },
     "AnyKernel3": {
       "use": true,
-      "release": true,
+      "release": false,
       "repo": "https://github.com/donvito007/AnyKernel3",
       "branch": "thyme"
     }
   },
   {
     "kernelSource": {
-      "name": "Alioth-Oxygen+",
-      "repo": "https://github.com/donvito007/kernel_xiaomi_sm8250_Oxygen",
-      "branch": "main",
-      "device": "Alioth",
-      "defconfig": "vendor/alioth_defconfig"
+      "name": "Thyme-Stock=Perf",
+      "repo": "https://github.com/donvito007/kernel_xiaomi_sm8250-Immen",
+      "branch": "android13-clo",
+      "device": "Thyme",
+      "defconfig": "vendor/xiaomi/stock/thyme-stock_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -82,7 +82,7 @@
     },
     "AnyKernel3": {
       "use": true,
-      "release": true,
+      "release": false,
       "repo": "https://github.com/donvito007/AnyKernel3",
       "branch": "thyme"
     }
@@ -126,7 +126,7 @@
     },
     "AnyKernel3": {
       "use": true,
-      "release": true,
+      "release": false,
       "repo": "https://github.com/donvito007/AnyKernel3",
       "branch": "thyme"
     }
