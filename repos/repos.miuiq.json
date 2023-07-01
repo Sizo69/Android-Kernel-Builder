@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Camellia_KernelSU_Proton",
-      "repo": "https://github.com/sajalkmr/kernel_xiaomi_camellia",
-      "branch": "camellia-r-oss",
-      "device": "Camellia",
-      "defconfig": "camellian_stock_defconfig"
+      "name": "Alioth-MiuiQ-Ksu",
+      "repo": "https://github.com/donvito007/PhoenixWings_Kernel_XiaomiSM8250",
+      "branch": "upstream",
+      "device": "Alioth",
+      "defconfig": "vendor/miuiq_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -37,10 +37,10 @@
       }
     },
     "AnyKernel3": {
-      "use": false,
-      "release": false,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "master"
+      "use": true,
+      "release": true,
+      "repo": "https://github.com/donvito007/AnyKernel3",
+      "branch": "thyme"
     }
   }
 ]
