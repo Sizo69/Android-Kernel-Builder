@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "Kuro-KernelSU-Proton-release",
-      "repo": "https://github.com/Sizo69/android_kernel_xiaomi_sm8150.git",
-      "branch": "14.0",
+      "repo": "https://github.com/Sizo69/platform_kernel_xiaomi_vayu.git",
+      "branch": "main",
       "device": "vayu",
       "defconfig": "vayu_user_defconfig"
     },
