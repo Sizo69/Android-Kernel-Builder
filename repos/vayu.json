@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "DogDay-KernelSU-Proton-release",
+      "name": "Kuro-KernelSU-Proton-release",
       "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
       "branch": "lineage-20.0",
       "device": "thyme",
