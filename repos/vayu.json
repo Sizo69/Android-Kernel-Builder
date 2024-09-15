@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "Kuro-KernelSU-Proton-release",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
-      "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "repo": "https://github.com/Sizo69/android_kernel_xiaomi_sm8150.git",
+      "branch": "14.0",
+      "device": "vayu",
+      "defconfig": "vayu_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
